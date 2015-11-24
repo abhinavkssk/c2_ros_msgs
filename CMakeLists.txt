@@ -15,7 +15,8 @@ add_message_files(FILES
    ActuatorControl.msg
    BHVProposer.msg
    State3D.msg
-   Trajectory.msg)
+   Trajectory.msg
+   C2_STATE.msg)
 
 # Generate added messages and services with any dependencies listed here
 generate_messages(DEPENDENCIES 
